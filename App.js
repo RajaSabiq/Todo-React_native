@@ -5,12 +5,10 @@ import {
   View,
   FlatList,
   TouchableWithoutFeedback,
-  Keyboard,
 } from "react-native";
 import Header from "./Components/Header";
 import TodoItem from "./Components/TodoItem";
 import AddTODO from "./Components/AddTODO";
-import Sandbox from "./Components/Sandbox";
 
 export default function App() {
   const [todo, setTodo] = useState([
